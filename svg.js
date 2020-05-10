@@ -32,7 +32,7 @@ function animateHead() {
     part.setAttribute('transform', `rotate(10) ${transforms}`)
     part.style = 'transform-origin: 110px 120px'
   }
-  let is_moved = parts[0].getAttribute('trasform').includes('rotate')
+  let is_moved = parts[0].getAttribute('transform').includes('rotate')
 
   if(is_moved) {
     setTimeout(() => {
